@@ -178,6 +178,14 @@ return (
     ) }
 
    </div>
+ 
+  <footer>
+  <p>Develop By: Ankush Katharia (<a style={{color:"#5e94ff"}} href="#">  katheriyaankush@gmail.com </a>) </p>
+
+
+
+</footer>
+   
    </div>
 
 )
