@@ -1,7 +1,6 @@
 import React , {Component} from 'react';
 import audio from '../Assests/1.mp3'
 import audio3 from '../Assests/3.mp3'
-
 import audio2 from '../Assests/2.mp3'
 
 
@@ -151,10 +150,25 @@ else{
 }
 
 
-
+console.log("Ankush")
 
 return (
+
+<section>
+      <div className="AppTic">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
 <div>
+
+
 <audio className="audio-element">
           <source src={ audio2}></source>
         </audio>
@@ -178,15 +192,9 @@ return (
     ) }
 
    </div>
- 
-  <footer>
-  <p>Develop By: Ankush Katharia (<a style={{color:"#5e94ff"}} href="#">  katheriyaankush@gmail.com </a>) </p>
-
-
-
-</footer>
-   
    </div>
+   </div>
+      </section>
 
 )
 
